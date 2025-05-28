@@ -24,7 +24,7 @@ gmail-auto-classifier/
 │
 ├── gmail.py               # Fonctions utilitaires pour Gmail
 ├── classify_old.py        # Classe les anciens mails existants
-├── classify_new.py        # Classe automatiquement les nouveaux mails (à exécuter régulièrement)
+├── classify_new.py        # Classe automatiquement les nouveaux mails 
 ├── authorize.py           # Script pour générer le token d'accès
 ├── README.md              # Fichier d'explication du projet
 ├── requirements.txt       # Dépendances Python
