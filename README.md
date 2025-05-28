@@ -88,6 +88,13 @@ Ne partage jamais tes fichiers credentials.json et token.json publiquement.
 L'authentification OAuth fonctionne uniquement pour les comptes ajoutés dans les utilisateurs testeurs tant que l'application n’est pas validée publiquement.
 Les mails sont classés en fonction de règles simples définies dans classify_old.py et classify_new.py.
 
+## ✉️ Exemple d’e-mail classé automatiquement
+
+Voici un exemple d’e-mail classé automatiquement par le script :
+
+![Email classé automatiquement](Capture d'écran 2025-05-28 144213.png)
+
+
 ## Sécurité
 Les fichiers sensibles sont ignorés dans .gitignore par défaut pour éviter leur publication.
 
