@@ -31,7 +31,7 @@ gmail-auto-classifier/
 ```
 
 ## Génération des fichiers credentials.json et token.json
-#### Étape 1 — Créer un projet Google Cloud
+### Étape 1 — Créer un projet Google Cloud
 Va sur : https://console.cloud.google.com
 
 Crée un nouveau projet (par exemple : Gmail Classifier)
@@ -40,7 +40,7 @@ Active l’API Gmail :
 
 "API & Services" → "Library" → "Gmail API" → Enable
 
-#### Étape 2 — Créer les identifiants OAuth2
+### Étape 2 — Créer les identifiants OAuth2
 Dans "API & Services" > "Identifiants"
 
 Clique sur "Créer des identifiants" > "ID client OAuth"
@@ -51,7 +51,7 @@ Télécharge le fichier credentials.json
 
 Place ce fichier à la racine de ton projet
 
-#### Étape 3 — Générer token.json
+### Étape 3 — Générer token.json
 Lance une seule fois le script suivant :
 
 ```bash
@@ -75,9 +75,9 @@ python classify_new.py
 - `Planificateur de tâches Windows`
 
 ## Prérequis
-`Python 3.10+`
-`Compte Gmail`
-`Accès à Google Cloud Console`
+- `Python 3.10+`
+- `Compte Gmail`
+- `Accès à Google Cloud Console`
 
 ## Installe les dépendances :
 ```bash
