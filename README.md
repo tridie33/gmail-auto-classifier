@@ -15,8 +15,6 @@ Ce projet Python permet de **classer automatiquement les emails Gmail** dans dif
 - Application des bons labels
 - Exécution automatisée avec `cron` (Linux/macOS) ou le Planificateur de tâches Windows
 
-
-
 ## Structure du projet
 
 ```bash
@@ -73,15 +71,15 @@ python classify_new.py
 ```
 
 ## Automatisable via :
--cron (Linux/macOS)
--Planificateur de tâches Windows
+- `cron (Linux/macOS)`
+- `Planificateur de tâches Windows`
 
 ## Prérequis
-Python 3.10+
-Compte Gmail
-Accès à Google Cloud Console
+`Python 3.10+`
+`Compte Gmail`
+`Accès à Google Cloud Console`
 
-##Installe les dépendances :
+## Installe les dépendances :
 ```bash
 pip install -r requirements.txt
 ```
